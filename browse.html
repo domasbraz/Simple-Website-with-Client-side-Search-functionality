@@ -1,0 +1,356 @@
+<html>
+
+    <link rel="stylesheet" href="external code/styleSheet.css">
+    
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Browse</title>
+    </head>
+
+    
+
+    <body onload="setCategory(); searchBar();">
+
+        <div id="content">
+
+            <div id="nav">
+    
+                <div class="section"><b id="besco">Besco</b></div>
+                <div class="section" onclick="redirect('index.html')">Home</div>
+                <div class="section" onclick="redirect('browse.html')">Browse</div>
+                <div class="section" onclick="redirect('category.html')">Category</div>
+                
+    
+            </div>
+    
+            <div id="innerContent">
+    
+                <h1>Browse</h1>
+                <br>
+                <input type="search" id="searchBar" placeholder="Search Product Code">
+
+                <select id="categoryList" oninput="searchBar()">
+
+                    <option value="all">All</option>
+                    <option value="schoolEquipment">School Equipment</option>
+                    <option value="kitchenAppliances">Kitchen Appliances</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="furniture">Furniture</option>
+                    <option value="technology">Technology</option>
+                    <option value="medicine">Medicine</option>
+                    <option value="food">Food</option>
+                    <option value="bathroomUtilities">Bathroom Utilities</option>
+                    <option value="hygiene">Hygiene</option>
+
+                </select>
+
+                <!--Placeholder text for styling purposes-->
+                <button id="searchBtn" onclick="searchBar()">aa</button>
+                <br><br>
+                <!--ref: https://www.w3schools.com/css/css3_flexbox_responsive.asp-->
+                <div class="row">
+
+                    <div class="column">
+
+                        <div id="171-93" class="products">
+                            <info1>
+                                <b>Code: </b>171-93
+                            </info1>
+                            <br>
+                            <info2>
+                                <b>Name: </b>BIC Pen Pack
+                            </info2>
+                            <br>
+                            <moreInfo>
+                                <info3>
+                                    <b>Category: </b>School Equipment
+                                </info3>
+                                <br>
+                                <info4>
+                                    <b>Description: </b>A pack of 10 blue ballpoint pens
+                                </info4>
+                                <br>
+                                <info5>
+                                    <b>Quantity: </b>50
+                                </info5>
+                                <br>
+                                <info6>
+                                    <b>Unit Price: </b>3.99
+                                </info6>
+                            </moreInfo>
+                        </div>
+
+                        <div id="390-11" class="products">
+                            <info1>
+                                <b>Code: </b>390-11
+                            </info1>
+                            <br>
+                            <info2>
+                                <b>Name: </b>Complete Luxury Set
+                            </info2>
+                            <br>
+                            <moreInfo>
+                                <info3>
+                                    <b>Category: </b>Kitchen Appliances
+                                </info3>
+                                <br>
+                                <info4>
+                                    <b>Description: </b>A set of 5 spoons, forks and knives, all with fancy engravings
+                                </info4>
+                                <br>
+                                <info5>
+                                    <b>Quantity: </b>22
+                                </info5>
+                                <br>
+                                <info6>
+                                    <b>Unit Price: </b>19.99
+                                </info6>
+                            </moreInfo>
+                        </div>
+
+                        <div id="796-00" class="products">
+                            <info1>
+                                <b>Code: </b>796-00
+                            </info1>
+                            <br>
+                            <info2>
+                                <b>Name: </b>Nike AirMax
+                            </info2>
+                            <br>
+                            <moreInfo>
+                                <info3>
+                                    <b>Category: </b>Clothing
+                                </info3>
+                                <br>
+                                <info4>
+                                    <b>Description: </b>A pair of sport shoes
+                                </info4>
+                                <br>
+                                <info5>
+                                    <b>Quantity: </b>30
+                                </info5>
+                                <br>
+                                <info6>
+                                    <b>Unit Price: </b>79.99
+                                </info6>
+                            </moreInfo>
+                        </div>
+
+                        <div id="055-49" class="products">
+                            <info1>
+                                <b>Code: </b>055-49
+                            </info1>
+                            <br>
+                            <info2>
+                                <b>Name: </b>Mahogany Throne
+                            </info2>
+                            <br>
+                            <moreInfo>
+                                <info3>
+                                    <b>Category: </b>Furniture
+                                </info3>
+                                <br>
+                                <info4>
+                                    <b>Description: </b>A high quality chair made of mahongany wood
+                                </info4>
+                                <br>
+                                <info5>
+                                    <b>Quantity: </b>5
+                                </info5>
+                                <br>
+                                <info6>
+                                    <b>Unit Price: </b>199.99
+                                </info6>
+                            </moreInfo>
+                        </div>
+
+                    </div>
+
+                    <div class="column">
+
+                        <div id="901-87" class="products">
+                            <info1>
+                                <b>Code: </b>901-87
+                            </info1>
+                            <br>
+                            <info2>
+                                <b>Name: </b>AudioMax Portable 5.0
+                            </info2>
+                            <br>
+                            <moreInfo>
+                                <info3>
+                                    <b>Category: </b>Technology
+                                </info3>
+                                <br>
+                                <info4>
+                                    <b>Description: </b>A bluetooth speaker
+                                </info4>
+                                <br>
+                                <info5>
+                                    <b>Quantity: </b>13
+                                </info5>
+                                <br>
+                                <info6>
+                                    <b>Unit Price: </b>49.99
+                                </info6>
+                            </moreInfo>
+                        </div>
+
+                        <div id="437-81" class="products">
+                            <info1>
+                                <b>Code: </b>437-81
+                            </info1>
+                            <br>
+                            <info2>
+                                <b>Name: </b>Vitamin Gummies
+                            </info2>
+                            <br>
+                            <moreInfo>
+                                <info3>
+                                    <b>Category: </b>Medicine
+                                </info3>
+                                <br>
+                                <info4>
+                                    <b>Description: </b>A pack of multivitamin gummy shaped capsules
+                                </info4>
+                                <br>
+                                <info5>
+                                    <b>Quantity: </b>30
+                                </info5>
+                                <br>
+                                <info6>
+                                    <b>Unit Price: </b>7.49
+                                </info6>
+                            </moreInfo>
+                        </div>
+
+                        <div id="539-09" class="products">
+                            <info1>
+                                <b>Code: </b>539-09
+                            </info1>
+                            <br>
+                            <info2>
+                                <b>Name: </b>Chocolate Digestibles
+                            </info2>
+                            <br>
+                            <moreInfo>
+                                <info3>
+                                    <b>Category: </b>Food
+                                </info3>
+                                <br>
+                                <info4>
+                                    <b>Description: </b>A pack of chocolate biscuits
+                                </info4>
+                                <br>
+                                <info5>
+                                    <b>Quantity: </b>50
+                                </info5>
+                                <br>
+                                <info6>
+                                    <b>Unit Price: </b>2.99
+                                </info6>
+                            </moreInfo>
+                        </div>
+
+                    </div>
+
+                    <div class="column">
+
+                        <div id="340-74" class="products">
+                            <info1>
+                                <b>Code: </b>340-74
+                            </info1>
+                            <br>
+                            <info2>
+                                <b>Name: </b>Panda-Soft Rolls
+                            </info2>
+                            <br>
+                            <moreInfo>
+                                <info3>
+                                    <b>Category: </b>Bathroom Utilities
+                                </info3>
+                                <br>
+                                <info4>
+                                    <b>Description: </b>A pack of toilet paper rolls
+                                </info4>
+                                <br>
+                                <info5>
+                                    <b>Quantity: </b>43
+                                </info5>
+                                <br>
+                                <info6>
+                                    <b>Unit Price: </b>4.99
+                                </info6>
+                            </moreInfo>
+                        </div>
+
+                        <div id="810-55" class="products">
+                            <info1>
+                                <b>Code: </b>810-55
+                            </info1>
+                            <br>
+                            <info2>
+                                <b>Name: </b>Colgate Max White Ultimate
+                            </info2>
+                            <br>
+                            <moreInfo>
+                                <info3>
+                                    <b>Category: </b>Hygiene
+                                </info3>
+                                <br>
+                                <info4>
+                                    <b>Description: </b>High quality whitening toothpaste
+                                </info4>
+                                <br>
+                                <info5>
+                                    <b>Quantity: </b>17
+                                </info5>
+                                <br>
+                                <info6>
+                                    <b>Unit Price: </b>13.99
+                                </info6>
+                            </moreInfo>
+                        </div>
+
+                        <div id="166-99" class="products">
+                            <info1>
+                                <b>Code: </b>166-99
+                            </info1>
+                            <br>
+                            <info2>
+                                <b>Name: </b>Denny's Sausages
+                            </info2>
+                            <br>
+                            <moreInfo>
+                                <info3>
+                                    <b>Category: </b>Food
+                                </info3>
+                                <br>
+                                <info4>
+                                    <b>Description: </b>A small pack of Irish-made sausages
+                                </info4>
+                                <br>
+                                <info5>
+                                    <b>Quantity: </b>31
+                                </info5>
+                                <br>
+                                <info6>
+                                    <b>Unit Price: </b>2.49
+                                </info6>
+                            </moreInfo>
+                        </div>
+
+                    </div>
+
+                </div>
+    
+            </div>
+            
+        
+
+    </body>
+
+</html>
+
+<script src="external code/script.js"></script>
+

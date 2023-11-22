@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<root
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='ProjectXmlSchema.xsd'>
+    
+    <product code="171-93">
+        <category>School Equipment</category>
+        <name>BIC Pen Pack</name>
+        <description>A pack of 10 blue ballpoint pens</description>
+        <quantity>50</quantity>
+        <unitPrice>3.99</unitPrice>
+    </product>
+    
+    <product code="390-11">
+        <category>Kitchen Appliances</category>
+        <name>Complete Luxury Set</name>
+        <description>A set of 5 spoons, forks and knives, all with fancy engravings</description>
+        <quantity>22</quantity>
+        <unitPrice>19.99</unitPrice>
+    </product>
+    
+    <product code="796-00">
+        <category>Clothing</category>
+        <name>Nike AirMax</name>
+        <description>A pair of sport shoes</description>
+        <quantity>30</quantity>
+        <unitPrice>79.99</unitPrice>
+    </product>
+    
+    <product code="055-49">
+        <category>Furniture</category>
+        <name>Mahogany Throne</name>
+        <description>A high quality chair made of mahongany wood</description>
+        <quantity>5</quantity>
+        <unitPrice>199.99</unitPrice>
+    </product>
+    
+    <product code="901-87">
+        <category>Technology</category>
+        <name>AudioMax Portable 5.0</name>
+        <description>A bluetooth speaker</description>
+        <quantity>13</quantity>
+        <unitPrice>49.99</unitPrice>
+    </product>
+    
+    <product code="437-81">
+        <category>Medicine</category>
+        <name>Vitamin Gummies</name>
+        <description>A pack of multivitamin gummy shaped capsules</description>
+        <quantity>30</quantity>
+        <unitPrice>7.49</unitPrice>
+    </product>
+    
+    <product code="539-09">
+        <category>Food</category>
+        <name>Chocolate Digestibles</name>
+        <description>A pack of chocolate biscuits</description>
+        <quantity>50</quantity>
+        <unitPrice>2.99</unitPrice>
+    </product>
+    
+    <product code="340-74">
+        <category>Bathroom Utilities</category>
+        <name>Panda-Soft Rolls</name>
+        <description>A pack of toilet paper rolls</description>
+        <quantity>43</quantity>
+        <unitPrice>4.99</unitPrice>
+    </product>
+    
+    <product code="810-55">
+        <category>Hygiene</category>
+        <name>Colgate Max White Ultimate</name>
+        <description>High quality whitening toothpaste</description>
+        <quantity>17</quantity>
+        <unitPrice>13.99</unitPrice>
+    </product>
+    
+    <product code="166-99">
+        <category>Food</category>
+        <name>Denny's Sausages</name>
+        <description>A small pack of Irish-made sausages</description>
+        <quantity>31</quantity>
+        <unitPrice>2.49</unitPrice>
+    </product>
+
+</root>
+

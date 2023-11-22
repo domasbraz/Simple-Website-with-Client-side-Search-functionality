@@ -1,0 +1,41 @@
+images:
+background: Photo by Pixabay: https://www.pexels.com/photo/interior-of-empty-parking-lot-257636/
+
+products: Photo by Tiger Lily: https://www.pexels.com/photo/photo-of-warehouse-4481326/
+
+categories: Photo by Pixabay: https://www.pexels.com/photo/booth-branding-business-buy-264636/
+
+member: Photo by Belle Co: https://www.pexels.com/photo/silhouette-photography-of-group-of-people-jumping-during-golden-time-1000445/
+
+support: Photo by Pavel Danilyuk: https://www.pexels.com/photo/a-woman-smiling-while-sitting-on-her-workspace-7658355/
+
+
+js:
+key down event listener: https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event
+
+redirect to ne window: https://www.w3schools.com/js/js_window_location.asp
+
+local storage: https://www.w3schools.com/html/html5_webstorage.asp#gsc.tab=0
+
+regular expressions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp
+
+
+css:
+cards: https://www.w3schools.com/howto/howto_css_cards.asp
+
+flexbox: https://www.w3schools.com/css/css3_flexbox_responsive.asp
+
+
+xsd:
+unique keyword: https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/ms256146(v=vs.100)
+
+xsl:
+most of the code copied from slides on moodle
+
+
+software used:
+Apache NetBeans (for xml, xsl, xsd): https://netbeans.apache.org/front/main/
+
+Visual Studio Code (for html, css, js): https://code.visualstudio.com
+
+Krita (for making/editing images): https://krita.org/en/

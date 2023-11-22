@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <link rel="stylesheet" href="external code/styleSheet.css">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Besco Home</title>
+    </head>
+
+
+
+    <body>
+        <div id="content">
+
+            <div id="nav">
+
+                <div class="section"><b id="besco">Besco</b></div>
+                <div class="section" onclick="redirect('index.html')">Home</div>
+                <div class="section" onclick="redirect('browse.html')">Browse</div>
+                <div class="section" onclick="redirect('category.html')">Category</div>
+
+
+            </div>
+
+            <div id="innerContent">
+
+                <h1>Besco Warehouse</h1>
+
+                <div id="cards">
+
+                    <div class="card" onclick="redirect('browse.html')">
+
+                        <!--image ref: https://www.pexels.com/photo/photo-of-warehouse-4481326/ -->
+                        <img src="media/products.jpg" alt="Image for Products" style="width:100%">
+
+                        <div class="cardContainer">
+
+                            <h4><b>Browse all our Products</b></h4> 
+
+                        </div>
+
+                    </div>
+
+                    <div class="card" onclick="redirect('category.html')">
+
+                        <!--image ref: https://www.pexels.com/photo/booth-branding-business-buy-264636/ -->
+                        <img src="media/categories.jpg" alt="Image for Categories" style="width:100%">
+
+                        <div class="cardContainer">
+
+                            <h4><b>Browse by Category</b></h4> 
+
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div class="card" onclick="fail('placeholder')">
+
+                        <!--image ref: https://www.pexels.com/photo/silhouette-photography-of-group-of-people-jumping-during-golden-time-1000445/ -->
+                        <img src="media/member.jpg" alt="Image for Member" style="width:100%">
+
+                        <div class="cardContainer">
+
+                            <h4><b>Become a Member</b></h4> 
+
+                        </div>
+
+                    </div>
+
+                    <div class="card" onclick="fail('placeholder')">
+
+                        <!--image ref: https://www.pexels.com/photo/a-woman-smiling-while-sitting-on-her-workspace-7658355/ -->
+                        <img src="media/support.jpg" alt="Image for Support" style="width: 100%">
+
+                        <div class="cardContainer">
+
+                            <h4><b>Support</b></h4> 
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+</html>
+
+<script src="external code/script.js"></script>

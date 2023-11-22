@@ -1,0 +1,213 @@
+
+
+* 
+{
+    box-sizing: border-box;
+}
+
+.header
+{
+    width: 100%;
+    height: 20%;
+}
+
+body 
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*Photo by Pixabay: https://www.pexels.com/photo/interior-of-empty-parking-lot-257636/ */
+    background-image: url(../media/background_edit.jpg);
+    background-size: 100%;
+    /*mainly used for browse.html to avoid awkward window resizing when searching products*/
+    overflow-y: scroll;
+}
+
+#content
+{
+    /*borders like these were used for testing purposes*/
+    border: 0px solid black;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    min-height: 100%;
+    width: 70%;
+    /*centers the div within the webpage*/
+    margin: auto;
+    position: absolute;
+    left: 15%;
+}
+
+#innerContent
+{
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+#nav
+{
+    width: 100%;
+    background-color: rgb(43, 41, 41);
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+    /*nav bar will move as user scrolls down*/
+    position: sticky;
+    top: 0;
+}
+
+#besco
+{
+    color: rgb(222, 119, 119);
+}
+
+.section
+{
+    border: 0px solid black;
+    padding: 2%;
+    min-width: 10%;
+    text-align: center;
+    display: inline-block;
+    cursor: default;
+}
+
+/* the first instance of section will not follow theis rule 
+(the first section is not a link and therefore, the cursor should remain default to not confuse the user) */
+.section:not(.section:nth-of-type(1))
+{
+    cursor: pointer;
+}
+
+
+#special
+{
+    float: right;
+}
+
+#cards
+{
+    width: 70%;
+    margin: auto;
+}
+
+/* adapted code from:
+https://www.w3schools.com/howto/howto_css_cards.asp */
+.card 
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: 2.5%;
+    display: inline-block;
+}
+  
+.card:hover 
+{
+    box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.cardContainer 
+{
+    padding: 2px 16px;
+}
+
+
+/*code adapted from:
+https://www.w3schools.com/css/css3_flexbox_responsive.asp */
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column 
+{
+    flex: 32%;
+    max-width: 32%;
+    padding: 0 0.5%;
+    margin: 0 auto;
+}
+
+.products
+{
+    border: 1px solid black;
+    text-align: left;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.7);
+    margin: 2% 0;
+}
+
+b
+{
+    color: rgb(209, 212, 255);
+}
+
+#searchBar
+{
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 5px 5px rgba(0,0,0,1);
+    transition: 0.3s;
+}
+
+#searchBtn:hover
+{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0,0,0,1);
+}
+
+#searchBar:focus, #searchBar:hover
+{
+    box-shadow: 5px 5px 10px rgba(0,0,0,1);
+    outline: 0;
+}
+
+#categoryList
+{
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 5px 5px rgba(0,0,0,1);
+    transition: 0.3s;
+}
+
+#categoryList:focus, #categoryList:hover
+{
+    outline: 0;
+    box-shadow: 5px 5px 10px rgba(0,0,0,1);
+}
+
+#searchBtn
+{
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 30px;
+    /*images of magnifying glass and plain background*/ 
+    background-image: url(../media/search_icon.png);
+    background-color: rgb(6, 161, 6);
+    background-size: 100%;
+    /*transparent color text as adding text affects styling of the element*/
+    color: #00000000;
+    border: 0;
+    box-shadow: 0 5px 5px rgba(0,0,0,1);
+    transition: 0.3s;
+}
+
+
+.category
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    min-width: 40%;
+    margin: auto;
+    display: block;
+    padding: 2%;;
+    color: rgb(209, 212, 255);
+}
+
+.category:hover 
+{
+    box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+}
